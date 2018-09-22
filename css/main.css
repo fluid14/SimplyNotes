@@ -1,0 +1,305 @@
+.error{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #34495e;
+}
+
+.header_login {
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    background-color: #2c3e50;
+    z-index: 1;
+
+}
+
+.logo {
+    position: absolute;
+    margin-left: 10%;
+
+}
+
+ul {
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 15px;
+}
+
+
+li {
+    position: relative;
+    display: inline;
+    padding: 25px;
+}
+
+#bar_link {
+    text-decoration: none;
+    display: inline;
+    color: white;
+    width: 0px;
+}
+
+#bar_link:hover {
+    border-bottom: 3px 5px solid black;
+    width: 30px;
+}
+
+.container {
+    position: absolute;
+    width: 100%;
+    background-color: #34495e;
+}
+
+.new_note {
+    position: relative;
+    height: 100vh;
+    background: url('../images/background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.about {
+    position: relative;
+    height: 100vh;
+    margin-top: 50px;
+}
+
+.rules {
+    position: relative;
+    padding: 50px;
+    height: 100vh;
+    background-color: #34495e;
+}
+
+.container960px {
+    position: absolute;
+    width: 960px;
+    height: 100vh;
+    /* wyśwrodkowanie diva przy pozycji absolute */
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+.register {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: red;
+    margin: 200px;
+
+}
+
+
+
+.logo_cont {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: red;
+
+}
+
+
+
+li #login_menu {
+   text-decoration: none;
+    display: inline;
+    color: white;
+    width: 0;
+    height: 0;
+}
+
+.content_center {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    padding: 30%;
+    text-shadow: 2px 2px 8px black;
+}
+
+.container_login {
+    position: fixed;
+    width: 50vw;
+    height: 100vh;
+    background-image: url(../images/backgroun_login.png);
+    background-size: 150% 100%;
+}
+
+.login {
+    background-color: #34495e;
+    position: relative;
+    width: 50vw;
+    height: 100vh;
+    float: right;
+}
+
+.login_form {
+    text-align: left;
+    margin: 150px 100px 100px 70px;
+    color: white;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.login_area {
+    padding: 5% 30% 0 0;
+    
+}
+
+button {
+    margin: 30px 0 20px 0 ;
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-size: 100%;
+    background-color: #2c3e50;
+    border: none;
+    opacity: 0.7;
+}
+
+button:hover{
+    opacity: 4.0;
+}
+
+.login_form_reg {
+    text-align: left;
+    margin: 80px 100px 100px 70px;
+    color: white;
+}
+
+textarea {
+    background-color:  #2c3e50;
+    border: none;
+    color: white;
+    font-size: 130%;
+    padding: 1% 1%;
+    resize: none;
+}
+
+
+
+#bar_login {
+    text-decoration: none;
+    display: inline;
+    color: white;
+}
+
+
+
+.save_txt {
+    text-align: center;
+    margin: 1%;
+    font-size: 120%;
+}
+
+#text_name {
+    background-color: #2c3e50;
+    border: none;
+    color: white;
+    font-size: 100%;
+    padding: 1% 1%;
+    
+}
+
+.arrow_down {
+    position: relative;
+    display: block; 
+    width:50px;
+    float: right;
+    margin-top: 40%;
+    margin-right: 20%;
+}
+
+#show_logout {
+    float: right;
+    font-size: 16px;
+    margin: 15px 30px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+#show_login {
+    float: right;
+    font-size: 16px;
+    margin: 15px 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 50px;
+    width: 100%;
+    background-color: red;
+    z-index: 99;
+}
+
+#h_index {
+    color: white;
+    font-size: 45px;
+    text-align: left;
+    padding: 30% 0 0 0;
+    text-shadow: 2px 2px 40px black;
+}
+
+#p_index {
+    color: white;
+    padding: 1% 0 0 0;
+    font-size: 20px;
+    text-shadow: 2px 2px 40px black;
+}
+
+#button {
+    color: white;
+    text-decoration: none;
+}
+
+#h_index_left {
+    color: white;
+    font-size: 45px;
+    text-align: right;
+    padding: 10% 0 0 0;
+    text-shadow: 2px 2px 40px black;
+}
+
+#p_index_left {
+    color: white;
+    padding: 1% 0 0 0;
+    text-align: right;
+    font-size: 20px;
+    text-shadow: 2px 2px 40px black;
+}
+
+.new_note_log {
+    position: relative;
+    padding: 50px;
+    height: 100vh;
+    background-color: #34495e;
+}
+
+.note {
+    margin: 0 0 20px 0 ;
+}
+
+#h_index_log {
+    color: white;
+    font-size: 40px;
+    margin: 20px 20px 20px 0px ;
+}
+
+
